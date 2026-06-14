@@ -1,0 +1,19 @@
+{
+  "name": "creatordev-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord modular com sistema de tickets, painel de informações, regras e notificador do Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "discord.js"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.23.2",
+    "axios": "^1.7.9",
+    "rss-parser": "^3.13.0",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "guilds": {
+    "1288847445513736222": {
+      "config": {
+        "enabledRating": true,
+        "enabledRanking": true,
+        "ratingsChannelId": "1511422444479709275",
+        "rankingChannelId": "1511422007710056508",
+        "staffRoleId": null,
+        "supervisorRoleId": "1288848153314857131",
+        "minAlertRating": 3,
+        "rankingMessageId": "1511422049091063931",
+        "rankingFilter": "geral"
+      },
+      "tickets": {
+        "1511422154250522714": {
+          "status": "Fechado",
+          "assignedStaffId": "786773738652958740",
+          "closedAt": 1780421542709,
+          "closedBy": "786773738652958740",
+          "guildId": "1288847445513736222",
+          "channelId": "1511422154250522714",
+          "userId": "786773738652958740",
+          "ticketId": 5031,
+          "category": "financeiro",
+          "categoryLabel": "💳 Financeiro",
+          "createdAt": 1780421522967,
+          "panelMessageId": "1511422158084243490",
+          "assignedAt": 1780421528632,
+          "transcriptPreview": "📋 **LOG DO TICKET #5031**\n👤 Usuário: onlypx\n📅 Criado em: 02/06/2026, 14:32:02\n🔒 Fechado em: 02/06/2026, 14:32:21\n────────────────────────────────────────\n\n**[02/06/2026, 14:32:02]** CreatorDev#2617: <@786773738652958740>\nOi! Bem-vindo(a) ao atendimento da **CreatorDev** — ticket #5031 em **💳 Financeiro**.\nUse o painel abaixo para consultar ou atualizar sua assinatura. A equipe financeira já foi acionada.\n<@&1288847642406948978> <@&1463946034970361987> <@&1288847899161137234> <@&1288848153314857131>\n**[02/06/2026, 14:32:03]** CreatorDev#2617: [Mensagem sem texto]\n**[02/06/2026, 14:32:03]** CreatorDev#2617: [Mensagem sem texto]\n**[02/06/2026, 14:32:18]** CreatorDev#2617: [Mensagem sem texto]\n",
+          "reviewedAt": 1780421571056
+        },
+        "1511422710368960542": {
+          "status": "Fechado",
+          "assignedStaffId": "786773738652958740",
+          "closedAt": 1780421709064,
+          "closedBy": "786773738652958740",
+          "guildId": "1288847445513736222",
+          "channelId": "1511422710368960542",
+          "userId": "786773738652958740",
+          "ticketId": 7660,
+          "category": "parcerias",
+          "categoryLabel": "🤝 Parcerias",
+          "createdAt": 1780421655717,
+          "panelMessageId": "1511422715100266619",
+          "assignedAt": 1780421658465,
+          "transcriptPreview": "📋 **LOG DO TICKET #7660**\n👤 Usuário: onlypx\n📅 Criado em: 02/06/2026, 14:34:15\n🔒 Fechado em: 02/06/2026, 14:35:08\n────────────────────────────────────────\n\n**[02/06/2026, 14:34:15]** CreatorDev#2617: <@786773738652958740>\nOi! Bem-vindo(a) ao atendimento da **CreatorDev** — ticket #7660 em **🤝 Parcerias**.\nNossa equipe já foi acionada. Envie sua proposta com o máximo de detalhes, links e contexto.\n<@&1288847642406948978> <@&1463946034970361987> <@&1288847899161137234> <@&1288848153314857131>\n**[02/06/2026, 14:34:16]** CreatorDev#2617: [Mensagem sem texto]\n**[02/06/2026, 14:34:20]** onlypx: a\n**[02/06/2026, 14:35:06]** CreatorDev#2617: [Mensagem sem texto]\n",
+          "reviewedAt": 1780421755118
+        }
+      },
+      "reviews": [
+        {
+          "id": "1511422154250522714-1780421571055",
+          "guildId": "1288847445513736222",
+          "channelId": "1511422154250522714",
+          "ticketId": 5031,
+          "userId": "786773738652958740",
+          "staffId": "786773738652958740",
+          "rating": 4,
+          "comment": "muito rapido e atenciosos",
+          "suggestion": null,
+          "serviceTimeMs": 19742,
+          "createdAt": 1780421571056
+        },
+        {
+          "id": "1511422710368960542-1780421755118",
+          "guildId": "1288847445513736222",
+          "channelId": "1511422710368960542",
+          "ticketId": 7660,
+          "userId": "786773738652958740",
+          "staffId": "786773738652958740",
+          "rating": 4,
+          "comment": "muito rapido e atenciosos",
+          "suggestion": null,
+          "serviceTimeMs": 53347,
+          "createdAt": 1780421755118
+        }
+      ],
+      "logs": [
+        {
+          "at": "2026-06-02T17:32:09.095Z",
+          "type": "ticket_assumido",
+          "description": "Ticket #5031 assumido por onlypx",
+          "ticketId": 5031,
+          "staffId": "786773738652958740"
+        },
+        {
+          "at": "2026-06-02T17:32:22.716Z",
+          "type": "ticket_fechado",
+          "description": "Ticket #5031 fechado por onlypx",
+          "ticketId": 5031,
+          "staffId": "786773738652958740"
+        },
+        {
+          "at": "2026-06-02T17:32:51.904Z",
+          "type": "avaliacao_recebida",
+          "description": "Ticket #5031 recebeu 4 estrela(s)",
+          "ticketId": 5031,
+          "staffId": "786773738652958740"
+        },
+        {
+          "at": "2026-06-02T17:34:18.883Z",
+          "type": "ticket_assumido",
+          "description": "Ticket #7660 assumido por onlypx",
+          "ticketId": 7660,
+          "staffId": "786773738652958740"
+        },
+        {
+          "at": "2026-06-02T17:35:09.065Z",
+          "type": "ticket_fechado",
+          "description": "Ticket #7660 fechado por onlypx",
+          "ticketId": 7660,
+          "staffId": "786773738652958740"
+        },
+        {
+          "at": "2026-06-02T17:35:55.962Z",
+          "type": "avaliacao_recebida",
+          "description": "Ticket #7660 recebeu 4 estrela(s)",
+          "ticketId": 7660,
+          "staffId": "786773738652958740"
+        }
+      ]
+    }
+  }
+}
