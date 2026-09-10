@@ -7,17 +7,17 @@ Wed May 13 2026 21:38:30 GMT-0300 (Horário Padrão de Brasília)
 Wed May 13 2026 21:39:34 GMT-0300 (Horário Padrão de Brasília)
 
 
-> creatordev-bot@1.0.0 start
+> raidtech-bot@1.0.0 start
 > node index.js
 
 [1G[0K==================================================
-  🤖 Bot Discord - CreatorDev
+  🤖 Bot Discord - RaidTech
 ==================================================
 [COMMAND] Comando carregado: adicionar-usuario
 [COMMAND] Comando carregado: booster-beneficios
 [COMMAND] Comando carregado: fechar-ticket
 [COMMAND] Comando carregado: invites
-[COMMAND] Comando carregado: painel-creatordev
+[COMMAND] Comando carregado: painel-raidtech
 [COMMAND] Comando carregado: painel-projetos
 [COMMAND] Comando carregado: regras
 [COMMAND] Comando carregado: remover-usuario
