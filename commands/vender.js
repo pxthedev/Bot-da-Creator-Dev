@@ -17,7 +17,7 @@ const {
 } = require('discord.js');
 const path = require('path');
 
-const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'creator_dev.png');
+const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'raidtech_dev.png');
 
 function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -173,7 +173,7 @@ module.exports = {
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent(
           [
-            '# VITRINE VIRTUAL — CreatorDev®',
+            '# VITRINE VIRTUAL — RaidTech®',
             `## 🛒 ${nome}`,
             '',
             info,

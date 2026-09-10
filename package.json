@@ -1,5 +1,5 @@
 {
-  "name": "creatordev-bot",
+  "name": "raidtech-bot",
   "version": "1.0.0",
   "description": "Bot Discord modular com sistema de tickets, painel de informações, regras e notificador do Instagram",
   "main": "index.js",

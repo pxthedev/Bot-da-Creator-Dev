@@ -1,0 +1,70 @@
+{
+  "token": "SEU_TOKEN_AQUI",
+  "clientId": "SEU_CLIENT_ID_AQUI",
+  "guildId": "SEU_GUILD_ID_AQUI",
+  "prefix": "!",
+
+  "roles": {
+    "member": "ID_DO_CARGO_DE_MEMBRO",
+    "staff": ["ID_CARGO_STAFF_1", "ID_CARGO_STAFF_2"]
+  },
+
+  "channels": {
+    "logs": "ID_DO_CANAL_DE_LOGS",
+    "notifications": "ID_DO_CANAL_DE_NOTIFICACOES",
+    "tickets": "ID_DA_CATEGORIA_DE_TICKETS",
+    "welcome": "ID_DO_CANAL_DE_BOAS_VINDAS"
+  },
+
+  "ticket": {
+    "categories": {
+      "suporte": "ID_CATEGORIA_SUPORTE",
+      "compras": "ID_CATEGORIA_COMPRAS",
+      "duvidas": "ID_CATEGORIA_DUVIDAS"
+    },
+    "maxTicketsPerUser": 3,
+    "closeConfirmation": true
+  },
+
+  "evaluation": {
+    "ratingsChannelId": null,
+    "rankingChannelId": null,
+    "staffRoleId": null,
+    "supervisorRoleId": null,
+    "minAlertRating": 3
+  },
+
+  "instagram": {
+    "username": "pevoltarelli",
+    "checkInterval": 300000,
+    "useRss": true,
+    "rssUrl": "https://rsstojson.com/feed/profile/https://www.instagram.com/nome_do_perfil/?__a=1"
+  },
+
+  "rules": {
+    "title": "📜 Regras do Servidor",
+    "description": "Leia as regras com atenção antes de continuar.",
+    "rules": [
+      "1. Respeite todos os membros do servidor",
+      "2. Não divulgue conteúdo ilegal ou pirata",
+      "3. Não faça spam ou flood nas conversas",
+      "4. Utilize os canais de forma adequada",
+      "5. Não insira conteúdo adulto ou NSFW",
+      "6. Siga as instruções da staff"
+    ],
+    "acceptRole": "ID_DO_CARGO_APOS_ACEITAR_REGRAS"
+  },
+
+  "serverInfo": {
+    "title": "📊 Informações do Servidor",
+    "thumbnail": true,
+    "color": "#5865F2"
+  },
+
+  "colors": {
+    "success": "#00FF00",
+    "error": "#FF0000",
+    "warning": "#FFA500",
+    "info": "#3498db"
+  }
+}

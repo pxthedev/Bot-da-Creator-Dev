@@ -13,7 +13,7 @@ const {
 } = require('discord.js');
 const path = require('path');
 
-const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'atendimento_creator.png');
+const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'atendimento_raidtech.png');
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -24,7 +24,7 @@ module.exports = {
   async execute(interaction, client) {
     await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
-    const banner = new AttachmentBuilder(BANNER_PATH, { name: 'atendimento_creator.png' });
+    const banner = new AttachmentBuilder(BANNER_PATH, { name: 'atendimento_raidtech.png' });
 
     const selectMenu = new StringSelectMenuBuilder()
       .setCustomId('ticket_servico_select')
@@ -65,7 +65,7 @@ module.exports = {
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent(
           [
-            '# CENTRAL DE ATENDIMENTO — CreatorDev®',
+            '# CENTRAL DE ATENDIMENTO — RaidTech®',
             '## 🚀 Solicite seu Serviço Personalizado',
             '',
             'Seja bem-vindo à nossa central de atendimento. Para iniciarmos o seu projeto, selecione a categoria desejada no menu abaixo. Nossa equipe entrará em contato o mais breve possível.',
@@ -79,7 +79,7 @@ module.exports = {
             '### 📌 Como Funciona?',
             '1. Selecione a categoria no menu.',
             '2. Um canal privado será aberto.',
-            '3. Para serviços, a IA coleta um briefing rápido; em parcerias, a staff atende diretamente.',
+            '3. A equipe vai analisar o pedido e te responder no canal privado.',
             '',
             '### ⚠️ Informações Importantes',
             '• Evite DMs, use apenas este canal.',

@@ -37,7 +37,7 @@ module.exports = {
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent(
           [
-            '# SISTEMA DE RECOMPENSAS — CreatorDev®',
+            '# SISTEMA DE RECOMPENSAS — RaidTech®',
             '## 💎 Benefícios Exclusivos — Server Booster',
             '',
             'Sua ajuda impulsiona nossa inovação! Ao se tornar um Booster, você recebe acesso instantâneo a privilégios exclusivos que elevam sua experiência em nossa comunidade.',

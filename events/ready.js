@@ -19,7 +19,7 @@ module.exports = {
     const { ActivityType } = require('discord.js');
 
     const statusMessages = [
-      { name: 'bem-vindo(a) a creator!' }
+      { name: 'bem-vindo(a) a RaidTech!' }
     ];
 
     let currentStatusIndex = 0;

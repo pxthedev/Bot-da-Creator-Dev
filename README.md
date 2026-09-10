@@ -1,4 +1,4 @@
-# 🤖 CreatorDev Bot - Discord Bot
+# 🤖 RaidTech Bot - Discord Bot
 
 Um bot Discord completo e modular construído com Node.js e discord.js, com sistema de tickets, painel de informações, regras e notificador do Instagram.
 
@@ -12,7 +12,7 @@ Um bot Discord completo e modular construído com Node.js e discord.js, com sist
 ## 📁 Estrutura do Projeto
 
 ```
-creatordev-bot/
+raidtech-bot/
 ├── index.js              # Arquivo principal
 ├── config.json            # Configurações do bot
 ├── package.json           # Dependências
@@ -121,7 +121,7 @@ npm start
 Quando o bot iniciar, você verá:
 ```
 ══════════════════════════════════════════════════
-  🤖 Bot Discord - CreatorDev
+  🤖 Bot Discord - RaidTech
 ══════════════════════════════════════════════════
 ✅ Bot online: BotName#1234
 📊 Servidores: 1

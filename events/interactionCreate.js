@@ -290,7 +290,7 @@ async function handleSelectMenus(interaction, client) {
     return;
   }
 
-  if (customId === 'creatordev_ecosystem_select') {
+  if (customId === 'raidtech_ecosystem_select') {
     const atendimentoId = client.config.channels?.atendimento;
     const atendimentoChannel = atendimentoId ? interaction.guild.channels.cache.get(atendimentoId) : null;
     const channelMention = atendimentoChannel ? `<#${atendimentoId}>` : interaction.channel?.toString();
@@ -751,7 +751,7 @@ async function handleServicoSelect(interaction, client) {
 
     const welcomeLines = [
       `${user}`,
-      `Oi! Bem-vindo(a) ao atendimento da **CreatorDev** — ticket #${ticketId} em **${servico.label}**.`,
+      `Oi! Bem-vindo(a) ao atendimento da **RaidTech** — ticket #${ticketId} em **${servico.label}**.`,
       welcomeDetail,
     ];
 

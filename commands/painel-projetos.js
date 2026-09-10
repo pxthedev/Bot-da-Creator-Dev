@@ -79,7 +79,7 @@ module.exports = {
     const paraQuem = interaction.fields.getTextInputValue('para_quem');
 
     const detailsLines = [
-      '# PORTFÓLIO DE PROJETOS — CreatorDev®',
+      '# PORTFÓLIO DE PROJETOS — RaidTech®',
       `## 📁 Projeto: ${nomeProjeto}`,
       '',
       'Confira os detalhes deste projeto desenvolvido com excelência por nossa equipe.',
@@ -102,7 +102,7 @@ module.exports = {
           .setStyle(ButtonStyle.Primary),
         new ButtonBuilder()
           .setLabel('Visitar Servidor')
-          .setURL(linkDiscord || 'https://discord.gg/creatordev')
+          .setURL(linkDiscord || 'https://discord.gg/raidtech')
           .setStyle(ButtonStyle.Link)
       );
 

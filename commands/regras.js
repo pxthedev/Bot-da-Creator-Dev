@@ -13,7 +13,7 @@ const {
 } = require('discord.js');
 const path = require('path');
 
-const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'regras_creator.png');
+const BANNER_PATH = path.join(__dirname, '..', 'fotos', 'regras_raidtech.png');
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -24,7 +24,7 @@ module.exports = {
   async execute(interaction, client) {
     await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
-    const banner = new AttachmentBuilder(BANNER_PATH, { name: 'regras_creator.png' });
+    const banner = new AttachmentBuilder(BANNER_PATH, { name: 'regras_raidtech.png' });
 
     const row = new ActionRowBuilder()
       .addComponents(
@@ -40,7 +40,7 @@ module.exports = {
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent(
           [
-            '# DIRETRIZES DA COMUNIDADE — CreatorDev®',
+            '# DIRETRIZES DA COMUNIDADE — RaidTech®',
             '## 📜 Regras & Conduta',
             '',
             'Para manter um ambiente saudável e produtivo, todos os membros devem seguir as diretrizes abaixo. O descumprimento resultará em sanções.',

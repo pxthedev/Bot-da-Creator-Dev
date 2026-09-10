@@ -75,7 +75,7 @@ module.exports = {
         return console.error('[WELCOME] Canal de boas-vindas não é um canal de texto:', channelId);
       }
 
-      const bannerPath = path.join(__dirname, '..', 'fotos', 'creator_dev.png');
+      const bannerPath = path.join(__dirname, '..', 'fotos', 'raidtech_dev.png');
       const hasBanner = fs.existsSync(bannerPath);
       const banner = hasBanner ? new AttachmentBuilder(bannerPath, { name: 'welcome_banner.png' }) : null;
 
@@ -83,7 +83,7 @@ module.exports = {
         .setAccentColor(0x5865F2)
         .addTextDisplayComponents(
           new TextDisplayBuilder().setContent(
-            ['# 🎉 Bem-vindo(a) ao CreatorDev!', `Seja bem-vindo(a) ${member}! 🚀`].join('\n')
+            ['# 🎉 Bem-vindo(a) ao RaidTech!', `Seja bem-vindo(a) ${member}! 🚀`].join('\n')
           )
         )
         .addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small))
@@ -112,7 +112,7 @@ module.exports = {
           new TextDisplayBuilder().setContent(
             [
               '## 💼 Quer solicitar um serviço?',
-              'Abra um **ticket** no canal de atendimento. A IA vai coletar um briefing rápido e a staff te responde em seguida.',
+              'Abra um **ticket** no canal de atendimento e descreva o que você precisa. A equipe te responde em seguida.',
               '',
               '## 🧭 Dica rápida',
               'Quanto mais contexto você mandar (objetivo, prazo, referências, orçamento), mais rápido a gente consegue te ajudar.',
@@ -134,7 +134,7 @@ module.exports = {
             '',
             `Olá ${member}, seja bem-vindo(a) ao nosso servidor!`,
             '📋 Leia as regras e aproveite sua estadia.',
-            '💼 Para orçamentos de serviços, abra um ticket no nosso atendimento.',
+            '💼 Para solicitar serviços ou tirar dúvidas, abra um ticket no nosso atendimento.',
           ].join('\n'),
           files: banner ? [banner] : [],
         }).catch((fallbackErr) => {

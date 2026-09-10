@@ -41,7 +41,7 @@ async function runOnce(client) {
 
     await user.send(
       [
-        '💳 Lembrete de assinatura — CreatorDev',
+        '💳 Lembrete de assinatura — RaidTech',
         `Sua assinatura vence em **${new Date(sub.dueAt).toLocaleDateString('pt-BR')}** (daqui a ${remindDays} dia(s)).`,
         'Se você já renovou, pode ignorar esta mensagem. Se precisar de ajuda, abra um ticket em nosso atendimento.',
       ].join('\n')

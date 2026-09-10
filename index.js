@@ -164,7 +164,7 @@ async function deployCommands() {
 
 async function startBot() {
   console.log('='.repeat(50));
-  console.log('  🤖 Bot Discord - CreatorDev');
+  console.log('  🤖 Bot Discord - RaidTech');
   console.log('='.repeat(50));
   
   await loadCommands();
